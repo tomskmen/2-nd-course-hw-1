@@ -44,14 +44,14 @@
   position: relative;
   padding-left: 200px;
   top: -223.53px; 
+  object-fit: cover;
 } 
-
 
 @media (min-width: 350px) and (max-width: 425.9px) {
     .header{
         max-width: 100%;
         max-height: 700px;
-        
+
         &__title{
         font-size: 40px;
         font-weight: 700;
@@ -94,13 +94,15 @@
         align-items: flex-start;
         padding: 16px 8px;
         gap: 6px; 
-        width: 1717.4px;
+        width: 2560px;
         height: 51.34px;
         left: calc(50% - 1717.4px/2 + 665.2px);
         top: calc(100% + -28px);
         background: #BCEC30;
         border: 0.537198px solid rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(13.4299px);
+        overflow-x: hidden;
+      
   
           &__text {
           color: rgb(32, 32, 39); 
@@ -117,13 +119,16 @@
         height: 100%;
         background: #FFFFFF;
         border-radius: 30px;
+        margin-bottom: 24px;
+        
     }
-    
+
     .box-text {
         width: 285px;
         margin: 29px 29px 32px 29px;
     }
     
+
     .mob-text {
         font-weight: 700;
         font-size: 32px;
@@ -139,7 +144,12 @@
         justify-self: start;
         display: flex;
         padding-top: 16px;
-        padding-bottom: 48px;
+    }
+    
+    .butmobil {
+        display: flex;
+        justify-content: center;
+
     }
     
     .priv-butts {
@@ -184,11 +194,11 @@
 
 @media (min-width: 350px) and (max-width: 425.9px) {
     .header-box {
-        padding-left: 23.5px;
         padding-top: 147px;
+        display: grid;
+        place-items: center;
        } 
 }
-
 
 @media (min-width: 426px) {
         .scrollmob {
@@ -222,7 +232,7 @@
 
  @media (min-width: 350px) and (max-width: 425.9px) {
      .galery-conteiner{
-        padding-bottom: 17px;
+        padding-bottom: 25px;
              }
         }
 

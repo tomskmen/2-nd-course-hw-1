@@ -166,6 +166,14 @@ body{
         }
 }
 
+.imgmobsix {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
 .imgconteiner{
     background: rgb(32, 32, 39); 
     height: 100%;
@@ -244,8 +252,9 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     padding-bottom: 144px;
-       
+    box-sizing: border-box;   
 }
+
 
 .galery{
     border-radius: 30px;
@@ -494,7 +503,8 @@ body{
     line-height: 29px;
     text-align: center;
     padding-top: 61px;
-}                               
+}     
+
     
     @import 'hover';
     @import 'mobaile';
