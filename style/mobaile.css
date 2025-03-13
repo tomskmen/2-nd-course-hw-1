@@ -90,8 +90,9 @@
   align-items: flex-start;
   padding: 16px 8px;
   gap: 6px;
-  width: 2560px;
-  height: 51.34px;
+  max-width: 100vw;
+  width: 100%;
+  white-space: nowrap;
   left: calc(50% - 858.7px + 665.2px);
   top: calc(100% - 28px);
   background: #BCEC30;
