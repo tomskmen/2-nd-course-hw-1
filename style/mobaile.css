@@ -41,6 +41,8 @@
   position: relative;
   padding-left: 200px;
   top: -223.53px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 350px) and (max-width: 425.9px) {
@@ -88,14 +90,16 @@
   align-items: flex-start;
   padding: 16px 8px;
   gap: 6px;
-  width: 1717.4px;
-  height: 51.34px;
+  max-width: 100vw;
+  width: 100%;
+  white-space: nowrap;
   left: calc(50% - 858.7px + 665.2px);
   top: calc(100% - 28px);
   background: #BCEC30;
   border: 0.537198px solid rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(13.4299px);
           backdrop-filter: blur(13.4299px);
+  overflow-x: hidden;
 }
 .scrollmob__text {
   color: rgb(32, 32, 39);
@@ -111,6 +115,7 @@
   height: 100%;
   background: #FFFFFF;
   border-radius: 30px;
+  margin-bottom: 24px;
 }
 
 .box-text {
@@ -133,7 +138,11 @@
   justify-self: start;
   display: flex;
   padding-top: 16px;
-  padding-bottom: 48px;
+}
+
+.butmobil {
+  display: flex;
+  justify-content: center;
 }
 
 .priv-butts {
@@ -174,8 +183,9 @@
 }
 @media (min-width: 350px) and (max-width: 425.9px) {
   .header-box {
-    padding-left: 23.5px;
     padding-top: 147px;
+    display: grid;
+    place-items: center;
   }
 }
 @media (min-width: 426px) {
@@ -205,7 +215,7 @@
 }
 @media (min-width: 350px) and (max-width: 425.9px) {
   .galery-conteiner {
-    padding-bottom: 17px;
+    padding-bottom: 25px;
   }
 }
 @media (min-width: 350px) and (max-width: 425.9px) {
