@@ -40,9 +40,12 @@ arr5.push(2, 2, 2);
 console.log(arr5);
 
 //exercise #6
-const arr6 = [9, 8, 7, 'a', 6, 5];
-arr6.sort();
-console.log(arr6);
+const array = [9, 8, 7, 'a', 6, 5];
+const sortedArray = array.sort((a, b) => {
+    return a - b;
+});
+const filteredArray = sortedArray.filter(item => item !== 'a');
+console.log(filteredArray);
 
 //exercise #7
 const arr7 = [9, 8, 7, 6, 5];
