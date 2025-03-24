@@ -34,14 +34,21 @@ const people = [
 console.log(filter(people, isMale));
 
  // exercise #3
-const intervalId = setInterval(() => {
-    console.log('Hello');
-}, 3000);
-setTimeout(() => {
-    clearInterval(intervalId);
-    console.log('Время прошло');
-}, 30000);
+ function printDate() {
+    const interval = 3000; // 3 секунды
+    const duration = 30000; // 30 секунд
+    
+    const intervalId = setInterval(() => {
+        console.log(new Date().toLocaleString());
+    }, interval);
+    
+    setTimeout(() => {
+        clearInterval(intervalId);
+        console.log("30 секунд прошло");
+    }, duration);
+}
 
+printDate();
  // exercise #4
  function delayForSecond(callback) {
     setTimeout(callback, 1000);
