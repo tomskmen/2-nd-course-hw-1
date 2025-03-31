@@ -49,3 +49,4 @@ function mathematics() {
 
 
 document.getElementById("playButtontwo").addEventListener("click", mathematics);
+document.getElementById("playButtontwos").addEventListener("click", mathematics);

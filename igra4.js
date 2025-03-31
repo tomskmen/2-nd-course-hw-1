@@ -38,3 +38,4 @@ let score = 0;
 }
 
 document.getElementById("playButtonfour").addEventListener("click", guessTheNumberGame);
+document.getElementById("playButtonfours").addEventListener("click", guessTheNumberGame);

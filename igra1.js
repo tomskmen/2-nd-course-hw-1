@@ -22,3 +22,4 @@ function guessTheNumberGame() {
 }
 
 document.getElementById("playButton").addEventListener("click", guessTheNumberGame);
+document.getElementById("playButtons").addEventListener("click", guessTheNumberGame);
