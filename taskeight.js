@@ -68,3 +68,5 @@ function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
 delayForSecond(() => sayHi('Глеб'));
+
+

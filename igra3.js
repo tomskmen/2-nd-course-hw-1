@@ -1,3 +1,4 @@
+
 document.getElementById('reverseButton').addEventListener('click', function() {
     // Запрашиваем у пользователя текст
     let userInput = prompt("Введите текст для переворота:");
@@ -8,8 +9,17 @@ document.getElementById('reverseButton').addEventListener('click', function() {
         let reversedText = userInput.split('').reverse().join('');
 
         // Выводим перевернутый текст
-        document.getElementById('result').innerText = "Перевернутый текст: " + reversedText;
+        alert("Перевернутый текст: " + reversedText);
     } else {
         alert("Вы не ввели текст.");
     }
 });
+function reverText() {
+    const userInput = prompt("Введите текст:");
+  
+    const reverText = userInput.split("").reverse().join("");
+  
+    alert("Перевернутый текст: " + reverText);
+  }
+
+document.getElementById("reverseButtons").addEventListener("click", reverText);

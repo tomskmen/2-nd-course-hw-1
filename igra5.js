@@ -27,3 +27,4 @@ function playGame() {
 
 
 document.getElementById("playButtonfive").addEventListener("click", playGame);
+document.getElementById("playButtonfives").addEventListener("click", playGame);
